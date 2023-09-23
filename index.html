@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="ssc.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome CSS -->
     <style>
+
+        
         /* Set the background to a study-themed image */
         body {
             background-image: url('study-background.jpg');
@@ -15,6 +17,43 @@
             color: #fff;
             font-family: Arial, sans-serif;
         }
+        
+/* Style for the guidance item headings */
+.guidance-item h3 {
+    font-size: 24px; /* Adjust the size of the heading */
+    margin-bottom: 10px; /* Add spacing below the heading */
+    position: relative; /* Set the heading position to relative */
+}
+
+/* Insert bullet using a ::before pseudo-element */
+.guidance-item h3::before {
+    content: "\2022"; /* Unicode bullet character */
+    font-size: 18px; /* Adjust the size of the bullet point */
+    margin-right: 10px; /* Add spacing between the bullet and the heading */
+    color: #FF0000; /* Change the color of the bullet point */
+    position: absolute; /* Set the bullet position to absolute */
+    left: -20px; /* Adjust the distance between the bullet and the heading */
+    top: 50%; /* Vertically center the bullet */
+    transform: translateY(-50%); /* Adjust the vertical position of the bullet */
+}
+
+/* Style for the guidance item content (unordered list) */
+.guidance-item ul {
+    list-style-type: none; /* Remove default list bullets */
+    margin-left: 30px; /* Add some indentation for the list items */
+}
+
+
+
+
+
+/* Style for the guidance item content (unordered list) */
+.guidance-item ul {
+    list-style-type: disc; /* Use bullet points for the list */
+    margin-left: 30px; /* Add some indentation for the list items */
+}
+
+
 
         /* CSS for center-aligning the header text */
         header {
@@ -227,103 +266,167 @@
            
             <div class="guidance-item">
                 <h3>Welcome to College</h3>
-                <p>Starting your engineering journey is an exciting step. Embrace the opportunities and challenges ahead, and make the most of your time in college.</p>
+                <ul>
+                    <li>Starting your engineering journey is an exciting step.</li>
+                    <li>Embrace the opportunities and challenges ahead.</li>
+                    <li>Make the most of your time in college.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Academic Success</h3>
-                <p>College-level academics can be challenging. Develop effective study habits, time management skills, and strategies for acing your courses. Learn how to make the most of lectures, take meaningful notes, and prepare for exams.</p>
+                <ul>
+                    <li>College-level academics can be challenging.</li>
+                    <li>Develop effective study habits and time management skills.</li>
+                    <li>Learn strategies for acing your courses.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Time Management</h3>
-                <p>Effective time management is crucial for success. Prioritize tasks, create a study schedule, and avoid procrastination to stay on top of your coursework.</p>
+                <ul>
+                    <li>Effective time management is crucial for success.</li>
+                    <li>Prioritize tasks and create a study schedule.</li>
+                    <li>Avoid procrastination to stay on top of your coursework.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Course Selection</h3>
-                <p>Choose your courses wisely. Consult with advisors, understand prerequisites, and create a balanced schedule that aligns with your academic and career goals.</p>
+                <ul>
+                    <li>Choose your courses wisely.</li>
+                    <li>Consult with advisors to plan your academic journey.</li>
+                    <li>Understand prerequisites and create a balanced schedule.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Study Strategies</h3>
-                <p>Experiment with various study techniques. Find what works best for you, whether it's note-taking, active learning, or group study sessions.</p>
+                <ul>
+                    <li>Experiment with various study techniques.</li>
+                    <li>Find what works best for you in terms of note-taking, active learning, or group study.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Exams and Assessments</h3>
-                <p>Prepare thoroughly for exams and assessments. Develop study plans, practice with past papers, and manage test anxiety through relaxation techniques.</p>
+                <ul>
+                    <li>Prepare thoroughly for exams and assessments.</li>
+                    <li>Develop study plans and practice with past papers.</li>
+                    <li>Manage test anxiety through relaxation techniques.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Campus Resources</h3>
-                <p>Explore the resources available on campus, including libraries, computer labs, and academic support services. Utilize them to enhance your learning experience.</p>
+                <ul>
+                    <li>Explore the resources available on campus, including libraries and academic support services.</li>
+                    <li>Utilize them to enhance your learning experience.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Networking and Involvement</h3>
-                <p>Get involved in engineering-related student organizations and attend networking events to build connections and explore career opportunities.</p>
+                <ul>
+                    <li>Get involved in engineering-related student organizations and networking events.</li>
+                    <li>Build connections and explore career opportunities.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Health and Well-being</h3>
-                <p>Take care of your physical and mental health. Balance academics with self-care, manage stress, and seek support when needed.</p>
+                <ul>
+                    <li>Take care of your physical and mental health.</li>
+                    <li>Balance academics with self-care and stress management.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Career Planning</h3>
-                <p>Start planning your career early. Explore internships, co-op opportunities, and work on creating a strong resume and interview skills.</p>
+                <ul>
+                    <li>Start planning your career early.</li>
+                    <li>Explore internships, co-op opportunities, and resume building.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Financial Management</h3>
-                <p>Manage your finances wisely by creating a budget and exploring scholarship and financial aid options to ease the financial burden of college.</p>
+                <ul>
+                    <li>Manage your finances wisely with budgeting and financial aid options.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Work-Life Balance</h3>
-                <p>Maintain a healthy balance between academics and personal life. Engage in extracurricular activities and practice time management to avoid burnout.</p>
+                <ul>
+                    <li>Maintain a healthy balance between academics and personal life.</li>
+                    <li>Engage in extracurricular activities and practice time management.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Building Relationships</h3>
-                <p>Forge meaningful connections with professors and peers. Collaborate effectively on group projects and seek out mentors and advisors.</p>
+                <ul>
+                    <li>Forge meaningful connections with professors and peers.</li>
+                    <li>Collaborate effectively on group projects and seek out mentors.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Goal Setting</h3>
-                <p>Set both short-term and long-term academic goals. Regularly review and adjust your goals as you progress through your engineering program.</p>
+                <ul>
+                    <li>Set both short-term and long-term academic goals.</li>
+                    <li>Regularly review and adjust your goals as you progress through your program.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Self-Care and Stress Management</h3>
-                <p>Identify stressors and practice healthy stress management techniques. Taking breaks, engaging in physical activity, and relaxation exercises can contribute to your overall well-being.</p>
+                <ul>
+                    <li>Identify stressors and practice healthy stress management techniques.</li>
+                    <li>Engage in physical activity and relaxation exercises.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Resilience and Persistence</h3>
-                <p>Understand that setbacks are part of the learning process. Stay determined and persevere through challenges, viewing them as opportunities for growth.</p>
+                <ul>
+                    <li>Understand that setbacks are part of the learning process.</li>
+                    <li>Stay determined and persevere through challenges.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Exploration and Curiosity</h3>
-                <p>Explore different engineering disciplines early on to discover your interests. Attend seminars, workshops, and lectures outside of your required coursework to expand your knowledge.</p>
+                <ul>
+                    <li>Explore different engineering disciplines to discover your interests.</li>
+                    <li>Attend seminars and workshops to expand your knowledge.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Feedback and Improvement</h3>
-                <p>Be open to feedback from professors and peers. Use constructive criticism as a tool for improvement, always striving to enhance your skills and knowledge.</p>
+                <ul>
+                    <li>Be open to feedback from professors and peers.</li>
+                    <li>Use constructive criticism as a tool for improvement.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Safety and Campus Policies</h3>
-                <p>Familiarize yourself with campus safety guidelines and adhere to them. Uphold academic integrity and follow all university conduct policies to maintain a positive academic environment.</p>
+                <ul>
+                    <li>Familiarize yourself with campus safety guidelines and uphold academic integrity.</li>
+                </ul>
             </div>
             
             <div class="guidance-item">
                 <h3>Seeking Help</h3>
-                <p>Remember that seeking help when needed is a sign of strength, not weakness. If you're facing academic or personal challenges, don't hesitate to reach out to professors, advisors, or counseling services for support.</p>
+                <ul>
+                    <li>Seek help when needed from professors, advisors, or counseling services.</li>
+                </ul>
             </div>
+            
+            
             
         
             <!-- Add more guidance items as needed -->
