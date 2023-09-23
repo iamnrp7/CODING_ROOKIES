@@ -68,10 +68,14 @@
 .resources-section {
     border: 1px solid #ccc;
     padding: 20px;
-    background-color: rgba(212, 218, 237, 0.8); /* Semi-transparent white background for resources section */
+    background-color: rgba(212, 218, 237, 0.8); /* Semi-transparent white background for insights section */
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0); /* Add a shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    color: #000; /* Change font color to black */
+    font-family: Arial, sans-serif; /* Adjust font family */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
 }
 
 /* Styling for the course list */
@@ -127,6 +131,33 @@
             text-decoration: none;
             color: #fff;
         }
+        /* Box around "Insights" section */
+/* Box around "Insights" section */
+.insights-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(212, 218, 237, 0.8); /* Semi-transparent white background for insights section */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    color: #000; /* Change font color to black */
+    font-family: Arial, sans-serif; /* Adjust font family */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+}
+
+/* Styling for the list items inside the "Insights" section */
+.insights-section ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+.insights-section ul li {
+    margin-bottom: 10px;
+}
+
+
+
     </style>
 </head>
 <body class="theme-dark">
@@ -141,7 +172,7 @@
             </ul>
         </nav>
     </header>
-   
+    
     <main>
         <section id="about" class="about-section">
             <i class="fas fa-info-circle fa-2x"></i>
@@ -151,7 +182,7 @@
 
         <section id="Resources" class="resources-section">
             <i class="fas fa-book fa-2x"></i>
-            <h2  style="color: #333;">Resources</h2>
+            <h2>Resources</h2>
             <div class="resources-box">
                 <ul class="course-list">
                     <li><a href="https://drive.google.com/drive/folders/1kzz8pxpkQe-LDiU3SgI8oX7BHkmOVA9W?usp=sharing">Basic Electronics</a></li>
@@ -202,11 +233,22 @@
         </section>
       
 
-        <section id="insights">
+        <section id="insights" class="insights-section">
             <i class="fas fa-chart-line fa-2x"></i>
             <h2>Insights</h2>
-            <!-- Add insights content here -->
+            <section>
+                <h3>For Freshers - BTech 1st Year Students</h3>
+                <p>Starting your BTech journey? Here are some insights to help you succeed in your first year:</p>
+                <ul>
+                    <li>Attend orientation programs to get familiar with your college and course.</li>
+                    <li>Stay organized with a planner or digital calendar for assignments and deadlines.</li>
+                    <li>Join study groups to collaborate with classmates and enhance your learning.</li>
+                    <li>Visit professors during office hours if you need academic assistance.</li>
+                    <li>Participate in extracurricular activities to develop new skills and make friends.</li>
+                </ul>
+            </section>
         </section>
+        
         <section id="feedback" style="text-align: center;">
             <h2>Feedback</h2>
             <form id="feedback-form" style="display: inline-block;">
