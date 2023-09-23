@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Smart Center</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\nihar\Desktop\TTTWEB\ssc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome CSS -->
+    <style>
+        /* Set the background to a study-themed image */
+        body {
+            background-image: url('study-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        /* CSS for center-aligning the header text */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+        }
+        
+        .about-section {
+            text-align: center;
+        }
+        
+        /* CSS for the header bar with links */
+        .header-bar {
+            background-color: #333; /* Dark background color for the header bar */
+            color: #fff; /* Text color for the links */
+            text-align: center;
+            position: fixed; /* Fix the header bar at the top */
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .header-bar a {
+            text-decoration: none;
+            color: #fff; /* Text color for the links */
+            margin: 0 20px; /* Add spacing between the links */
+            cursor: pointer; /* Change the cursor to a pointer on hover */
+        }
+
+        /* Add a smooth scrolling behavior to anchor links */
+        .header-bar a[href^="#"] {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .header-bar a[href^="#"]:hover {
+            background-color: #555; /* Darker background color on hover */
+        }
+
+        /* Style the active link */
+        .header-bar a.active {
+            background-color: #555; /* Darker background color for the active link */
+        }
+
+        /* Style icons */
+        .fa-2x {
+            font-size: 2em;
+            margin-right: 10px;
+        }
+        /* Box around "Resources" section */
+.resources-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(212, 218, 237, 0.8); /* Semi-transparent white background for resources section */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Add a shadow effect */
+}
+
+/* Styling for the course list */
+.resources-box ul.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resources-box ul.course-list li {
+    margin-bottom: 10px;
+}
+
+.resources-box ul.course-list li a {
+    text-decoration: none;
+    color: #333; /* Text color for course links */
+    font-weight: bold;
+}
+
+.resources-box ul.course-list li a:hover {
+    color: #fff9f9; /* Text color for course links on hover */
+}
+
+
+        /* Box around "College Student Guidance" section */
+        .guidance-section {
+            border: 1px solid #000000;
+            padding: 20px;
+            background-color: rgba(70, 72, 79, 0.829); /* Semi-transparent white background for guidance section */
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(16, 0, 0, 0.833); /* Add a shadow effect */
+        }
+
+        /* Styling for the footer */
+        footer {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for footer */
+            padding: 10px;
+        }
+
+        /* Footer links */
+        .footer-menu {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-menu li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer-menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="theme-dark">
+    <header>
+        <h1 class="site-title">Study Smart Center</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#about"><i class="fas fa-info-circle fa-2x"></i> About Us</a></li>
+                <li><a href="#Resources"><i class="fas fa-book fa-2x"></i>Resources</a></li>
+                <li><a href="#guidance"><i class="fas fa-lightbulb fa-2x"></i> College Student Guidance</a></li>
+                <li><a href="#insights"><i class="fas fa-chart-line fa-2x"></i> Insights</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section id="about" class="about-section">
+            <i class="fas fa-info-circle fa-2x"></i>
+            <h2>About Us</h2>
+            <p>Welcome to Study Smart Center! We are dedicated to helping you achieve your academic goals through our high-quality courses and expert instructors.</p>
+        </section>
+
+        <section id="Resources" class="resources-section">
+            <i class="fas fa-book fa-2x"></i>
+            <h2>Resources</h2>
+            <div class="resources-box">
+                <ul class="course-list">
+                    <li><a href="https://drive.google.com/drive/folders/1kzz8pxpkQe-LDiU3SgI8oX7BHkmOVA9W?usp=sharing">Basic Electronics</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1uHj7F8sLoCaLUiD4tHSC2LjgUWZ7ji37?usp=sharing">Communication Skills</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1EBy0287y1IEQmo3FxUyCJT9Yno_5zhRD?usp=sharing">Elements Of Civil Engineering And Solid Mechanics</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/18NSFZaXtv2ka2v7PZIZZNzhMMvPu4mwe?usp=sharing">Elements Of Electrical Engineering</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1trGQlqZlougTuYI7tVXVAoO6g8TiHS9C?usp=sharing">Elements Of Mechanical Engineering</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/10UisHuDhKsSj7o68kbkd0Vr6h67_CqYp?usp=sharing">Engineering Chemistry</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/10UNw9Ja-NH3kuhkLBurcNscHQmuL-6qO?usp=sharing">Engineering Graphics</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1vQtSIDmAeEH9m9SEM3Wb1U842e8FV1B0?usp=sharing">Engineering Physics</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1bvR2xJ7gSdPx3Mjub2CbuNZg4SNU8ukP?usp=sharing">Environmental Studies</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/10e_3xq-hhNoczjG-4iiTvShaL6mJMPn4?usp=sharing">Mathematics-I</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1-3b1uuPS-P45htURa6Gx_ZHWe2S4v3DV?usp=sharing">Mathematics-II</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1LETInbkV-6SvSWUjQF4AC8PV-tKljvDb?usp=sharing">Professional Ethics And Human Values</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1QN0bCIQiBUQjSBvkU4R7BGydrCDjUGL8?usp=sharing">Programming With C</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1CEHIjjBWMW1VyfKk7Z0GOld6vljc_qMP?usp=sharing">Python Programming</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1xDrloU9-pIVyWM3cwPIg5Z4AMeodn5mK?usp=sharing">Workshop</a></li>
+                    <!-- Add more course links as needed -->
+                </ul>
+            </div>
+        </section>
+        
+                    <!-- Add more course links as needed -->
+                </ul>
+            </section>
+        </section>
+
+        <section id="guidance" class="guidance-section">
+            <i class="fas fa-lightbulb fa-2x"></i>
+            <h2 class="section-title">College Student Guidance</h2>
+           
+            <div class="guidance-item">
+                <h3>Academic Success</h3>
+                <p>College-level academics can be challenging. Develop effective study habits, time management skills, and strategies for acing your courses. Learn how to make the most of lectures, take meaningful notes, and prepare for exams.</p>
+            </div>
+        
+            <div class="guidance-item">
+                <h3>Course Selection and Major Exploration</h3>
+                <p>Explore different majors, minors, and elective courses. Understand how to plan your academic journey, choose a major that aligns with your interests and career goals, and navigate prerequisites.</p>
+            </div>
+        
+            <div class="guidance-item">
+                <h3>Career Planning and Internships</h3>
+                <p>Start planning for your career early. Discover internship and co-op opportunities to gain practical experience. Learn how to write a standout resume and cover letter and prepare for interviews.</p>
+            </div>
+        
+            <!-- Add more guidance items as needed -->
+        </section>
+      
+
+        <section id="insights">
+            <i class="fas fa-chart-line fa-2x"></i>
+            <h2>Insights</h2>
+            <!-- Add insights content here -->
+        </section>
+        <section id="feedback" style="text-align: center;">
+            <h2>Feedback</h2>
+            <form id="feedback-form" style="display: inline-block;">
+                <p>How would you rate your experience on our website?</p>
+                <div class="rating-options">
+                    <label>
+                        <input type="radio" name="rating" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="5"> 5
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const feedbackForm = document.getElementById('feedback-form');
+        
+                feedbackForm.addEventListener('submit', function(event) {
+                    event.preventDefault();
+        
+                    const selectedRating = document.querySelector('input[name="rating"]:checked');
+        
+                    if (selectedRating) {
+                        const ratingValue = selectedRating.value;
+                        alert(`Thank you for your feedback! You rated us ${ratingValue}/5.`);
+                    } else {
+                        alert('Please select a rating before submitting.');
+                    }
+                });
+            });
+        </script>
+        
+        <script>
+            // JavaScript to handle smooth scrolling when clicking on header links
+            const headerLinks = document.querySelectorAll('.header-bar a');
+    
+            headerLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+    
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+    
+                        // Set the "active" class for the clicked link
+                        headerLinks.forEach(link => link.classList.remove('active'));
+                        this.classList.add('active');
+                    }
+                });
+            });
+        </script>
+
+        <p>&copy; 2023 Study Smart Center</p>
+        <nav>
+            <ul class="footer-menu">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
