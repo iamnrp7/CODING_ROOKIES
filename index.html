@@ -108,6 +108,15 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(16, 0, 0, 0.833); /* Add a shadow effect */
         }
+         /* Style the container div for the "About Us" section */
+.about-section {
+    border: 1px solid #000000;
+            padding: 20px;
+            background-color: rgba(70, 72, 79, 0.829); /* Semi-transparent white background for guidance section */
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(16, 0, 0, 0.833); /* Add a shadow effect */
+        }
 
         /* Styling for the footer */
         footer {
@@ -175,9 +184,11 @@
     
     <main>
         <section id="about" class="about-section">
-            <i class="fas fa-info-circle fa-2x"></i>
-            <h2>About Us</h2>
-            <p>Welcome to Study Smart Center! We are dedicated to helping you achieve your academic goals through our high-quality courses and expert instructors.</p>
+            <div class="section-box"> <!-- Add a container div for the box -->
+                <i class="fas fa-info-circle fa-2x"></i>
+                <h2>About Us</h2>
+                <p>Welcome to Study Smart Center! We are dedicated to helping you achieve your academic goals through our high-quality courses and expert instructors.</p>
+            </div>
         </section>
 
         <section id="Resources" class="resources-section">
