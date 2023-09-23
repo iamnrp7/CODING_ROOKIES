@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Apply background color and font styles */
+body.theme-dark {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the course list */
+.course-list {
+    list-style-type: none;
+}
+
+.course-list li {
+    margin-bottom: 10px;
+}
+
+.course-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
