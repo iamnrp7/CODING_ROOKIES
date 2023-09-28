@@ -18,7 +18,15 @@
             color: #fff;
             font-family: Arial, sans-serif;
         }
-        
+        #bg-video {
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Maintain aspect ratio and cover the entire viewport */
+    z-index: -12; /* Place it behind other content */
+}
 /* Style for the guidance item headings */
 .guidance-item h3 {
     font-size: 16px; /* Adjust the size of the heading */
@@ -542,5 +550,10 @@
             </ul>
         </nav>
     </footer>
+     <video autoplay muted loop id="bg-video">
+            <source src="ezgif-3-9beacdd56c.mp4" type="video/mp4">
+            <!-- Include additional source elements for different formats if needed -->
+            Your browser does not support the video tag.
+        </video>
 </body>
 </html>
